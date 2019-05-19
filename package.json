@@ -1,0 +1,27 @@
+{
+  "name": "listy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/listy",
+    "test": "mocha --require ts-node/register test/**/*.ts",
+    "build": "tsc --outDir ./build ./src/listy.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "command-line-args": "^5.0.2"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/command-line-args": "^5.0.0",
+    "@types/mocha": "^5.2.5",
+    "@types/mock-fs": "^3.6.30",
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "mock-fs": "^4.7.0",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.2.2"
+  }
+}
